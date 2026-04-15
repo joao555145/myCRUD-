@@ -1,3 +1,7 @@
+
+CREATE DATABASE escola ;
+use escola ;
+
 CREATE TABLE Estudantes(
 	id SERIAL PRIMARY KEY,
 	nome TEXT NOT NULL ,
@@ -14,4 +18,3 @@ INSERT INTO Estudantes (id, nome, curso, idade) VALUES
 (4, 'manzilli', 'programa', 69),
 (5, 'branco pedro alves', 'tecnico bilingue', 30)
 
-select * from Estudantes
